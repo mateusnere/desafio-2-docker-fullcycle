@@ -18,9 +18,6 @@ services:
     networks:
       - desafio_network
     tty: true
-    ports:
-      - 3000:3000
-    command: node index.js
     volumes:
       - ./node:/usr/src/app
 
