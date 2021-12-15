@@ -16,15 +16,3 @@ Nesse desafio temos um container Node.js fazendo a inserção, cada vez que for 
 ```bash
 $ docker-compose up -d
 ```
-
-* Logo após, rodar o comando abaixo para acessar o container do banco de dados:
-```bash
-$ docker exec -it db bash
-```
-Após acessar o container do banco de dados, fazer o login utilizando: 
-```bash
-$ mysql -u root -p
-```
-Com isso, poderá utilizar os comandos contidos no arquivo `init.sql`.
-
-Após a realização desses comandos citados acima, o desafio está pronto para ser executado no endereço `localhost:8080/`
