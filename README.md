@@ -27,14 +27,4 @@ $ mysql -u root -p
 ```
 Com isso, poderá utilizar os comandos contidos no arquivo `init.sql`.
 
-* Após as instruções no banco de dados, será necessário acessar o container do app por meio do comando:
-```bash
-$ docker exec -it app bash
-```
-Após acessar o containeer do app, realizar os comandos: 
-```bash
-$ npm install
-$ node index.js
-```
-
 Após a realização desses comandos citados acima, o desafio está pronto para ser executado no endereço `localhost:8080/`
